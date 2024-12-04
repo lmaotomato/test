@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Achievements</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="school-logo.png" alt="School Logo" class="logo">
+        <h1>School Achievements</h1>
+    </header>
+    <main class="main-content">
+        <div class="button-container">
+            <button class="achievement-button" onclick="showAchievement('Achievement 1')">Achievement 1</button>
+            <button class="achievement-button" onclick="showAchievement('Achievement 2')">Achievement 2</button>
+            <button class="achievement-button" onclick="showAchievement('Achievement 3')">Achievement 3</button>
+            <button class="achievement-button" onclick="showAchievement('Achievement 4')">Achievement 4</button>
+            <button class="achievement-button" onclick="showAchievement('Achievement 5')">Achievement 5</button>
+            <button class="achievement-button" onclick="showAchievement('Achievement 6')">Achievement 6</button>
+        </div>
+        <div id="achievement-info" class="info-page" style="display: none;">
+            <h2 id="achievement-title"></h2>
+            <p id="achievement-details"></p>
+            <button onclick="closeInfo()" class="close-button">Close</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
