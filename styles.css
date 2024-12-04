@@ -19,6 +19,13 @@ body {
     height: 50px; /* Adjust as needed */
 }
 
+.title {
+    font-family: 'Oswald', sans-serif; /* Use Oswald font */
+    text-transform: uppercase; /* Make text all caps */
+    color: white; /* Change color to white for better visibility */
+    margin: 0; /* Remove default margin */
+}
+
 .main-content {
     padding: 50px;
     text-align: center;
